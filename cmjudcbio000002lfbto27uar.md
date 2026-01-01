@@ -41,6 +41,8 @@ When creating variables in Python, follow these rules:
     
 * No spaces allowed
     
+* No Special characters allowed except underscore(\_).
+    
 
 ### Valid variable names:
 
@@ -135,7 +137,7 @@ percentage = 85.5
 
 ### **String (str)**
 
-Strings are used to store **text** and are written inside quotes**(‘ ‘, “ “, ’’’ ‘‘‘).**
+Strings are used to store **text** and are written inside quotes\*\*(‘ ‘, “ “, ’’’ ‘‘‘).\*\*
 
 ### Example:
 
@@ -157,7 +159,7 @@ is_logged_in = False
 
 ## ***Type Checking in Python***
 
-* You can check the data type of a variable using the <mark> type() function</mark>.
+* You can check the data type of a variable using the <mark>type() function</mark>.
     
 * ### Example:
     
